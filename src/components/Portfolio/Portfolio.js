@@ -32,6 +32,10 @@ const Portfolio = ({projectData}) => {
                   </div>
                 </div>
               )
+            } else {
+              return(
+                <div></div>
+              )
             }
           })
         }
